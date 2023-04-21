@@ -24,3 +24,6 @@ for i in range(len(input)):
         output += input[i]
         
 # print output
+print("\u001b[30m=" * 70)
+print("\u001b[34mThe decrypted input is: " + output)
+print("\u001b[30m=" * 70)
